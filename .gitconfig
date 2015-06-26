@@ -1,0 +1,17 @@
+[user]
+		name = Anders Olsen Sandvik
+		email = anders@andersos.net
+[color]
+		diff = auto
+		status = auto
+		branch = auto
+		ui = true
+[help]
+		autocorrect = 1
+[push]
+		default = simple
+[core]
+	editor = atom --wait
+	ignorecase = false
+[branch]
+	autosetuprebase = always
