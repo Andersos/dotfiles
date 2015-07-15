@@ -39,3 +39,5 @@ brew install wget --with-iri
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+echo "Done =)"
