@@ -14,6 +14,11 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
+# Install GNU core utilities (those that come with OS X are outdated).
+# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+brew install coreutils
+sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
@@ -24,7 +29,6 @@ brew install bash-completion2
 # Install other useful binaries.
 brew install dark-mode
 brew install flow
-brew install git
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
