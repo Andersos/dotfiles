@@ -6,6 +6,10 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Change owner of last commit
+# git config user.email "anders.olsen.sandvik@finn.no"
+# git commit --amend --author "Anders Olsen Sandvik <anders.olsen.sandvik@finn.no>"
+
 # Shortcuts
 alias d="cd ~/dev"
 alias dl="cd ~/Downloads"
