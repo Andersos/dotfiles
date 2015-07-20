@@ -1,0 +1,37 @@
+"*":
+  editor:
+    scrollPastEnd: true
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "3fee79e3-35d6-e212-b5d4-f05cc98e03d2"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "f18f852cfe50bc6eb756a48b05c13150f9e4b24d"
+  autosave:
+    enabled: true
+  whitespace:
+    ensureSingleTrailingNewline: false
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "linter-csslint": {}
+  jshint:
+    validateOnlyOnSave: true
+    supportLintingJsx: true
+  "travis-ci-status": {}
+  linter:
+    subtleLinterErrors: [
+      "scss-lint"
+      "htmlhint"
+    ]
+    ignoredLinterErrors: [
+      "jscs"
+    ]
