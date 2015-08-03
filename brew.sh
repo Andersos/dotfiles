@@ -8,6 +8,7 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+echo "brew start"
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -43,5 +44,15 @@ brew install wget --with-iri
 
 # Remove outdated versions from the cellar.
 brew cleanup
+echo "brew done"
 
-echo "Done =)"
+
+# Cask
+echo "cask start"
+brew install caskroom/cask/brew-cask
+
+brew cask install spotify
+brew cask install things
+
+echo "cask done"
+echo "Complete. Have a nice day!"
