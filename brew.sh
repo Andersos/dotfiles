@@ -59,6 +59,7 @@ brew cask install slack
 brew cask install doxie
 brew cask install sonos
 brew cask install cyberduck
+brew cask install minecraft
 
 echo "cask done"
 echo "Complete. Have a nice day!"
