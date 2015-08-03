@@ -2,14 +2,11 @@
 
 ## Installation
 
+Install [Homebrew](http://brew.sh/)
 ```bash
+brew install git
+git clone git@github.com:Andersos/dotfiles.git
 source bootstrap.sh
-```
-
-### Install Homebrew formulae
-
-When setting up a new Mac, you may want to install some common [Homebrew](http://brew.sh/) formulae (after installing Homebrew, of course):
-
-```bash
+chmod +x ./brew.sh
 ./brew.sh
 ```
