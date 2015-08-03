@@ -1,7 +1,5 @@
 # dotfiles
 
-## Installation
-
 Install [Homebrew](http://brew.sh/)
 ```bash
 brew install git
