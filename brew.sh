@@ -53,6 +53,11 @@ brew install caskroom/cask/brew-cask
 
 brew cask install spotify
 brew cask install things
+brew cask install atom
+brew cask install slack
+brew cask install doxie
+brew cask install sonos
+brew cask install cyberduck
 
 echo "cask done"
 echo "Complete. Have a nice day!"
