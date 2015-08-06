@@ -36,6 +36,7 @@ brew install git-lfs
 brew install imagemagick --with-webp
 brew install node
 brew install rename
+brew install keybase
 brew install shellcheck
 brew install skipfish
 brew install speedtest_cli
