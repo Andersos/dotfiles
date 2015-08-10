@@ -63,9 +63,9 @@ brew cask install cyberduck
 brew cask install minecraft
 
 # SPT
-brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
+brew cask install vmware-fusion
 
 echo "cask done"
 echo "Complete. Have a nice day!"
