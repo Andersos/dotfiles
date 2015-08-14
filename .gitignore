@@ -8,3 +8,6 @@ Thumbs.db
 .Trashes
 
 node_modules
+
+# PHP Composer
+composer
