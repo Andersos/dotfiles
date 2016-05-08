@@ -7,8 +7,8 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Change owner of last commit
-# git config user.email "anders.olsen.sandvik@finn.no"
-# git commit --amend --author "Anders Olsen Sandvik <anders.olsen.sandvik@finn.no>"
+# git config user.email "github@andersos.net"
+# git commit --amend --author "Anders Olsen Sandvik <github@andersos.net>"
 
 # Shortcuts
 alias d="cd ~/dev"
@@ -143,3 +143,17 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+alias mine="ps -ef | grep $USER"
+
+alias untarGzip="tar -xzvf"
+alias untarSimple="tar -xvf"
+
+# Move to git file maybe?
+alias gll="git log --graph --date=short --pretty=format:'%Cgreen%h %Cblue%cd (%cr) %Cred%an%C(yellow)%d%Creset: %s'"
+alias glll="git log --graph --stat --date=short --pretty=format:'%Cgreen%h %Cblue%cd (%cr) %Cred%an%C(yellow)%d%Creset: %s'"
+alias greset="git reset HEAD"
+alias goops="git reset --hard HEAD"
+
+alias serve="python -m SimpleHTTPServer"
+alias okblog="jekyll serve --watch"
