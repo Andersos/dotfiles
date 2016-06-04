@@ -64,11 +64,7 @@ brew cask install cyberduck
 brew cask install minecraft
 brew cask install flux
 brew cask install sketch
-
-# SPT
-brew cask install vagrant
-brew cask install vagrant-manager
-brew cask install vmware-fusion
+brew cask install postico
 brew cask install slack
 
 echo "cask done"
