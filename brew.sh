@@ -65,7 +65,6 @@ brew cask install minecraft
 brew cask install flux
 brew cask install sketch
 brew cask install postico
-brew cask install slack
 
 echo "cask done"
 echo "Complete. Have a nice day!"
