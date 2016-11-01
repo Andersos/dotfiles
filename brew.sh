@@ -44,6 +44,7 @@ brew install tree
 brew install webkit2png
 brew install wget --with-iri
 brew install rbenv ruby-build
+brew install watchman
 
 # Remove outdated versions from the cellar.
 brew cleanup
