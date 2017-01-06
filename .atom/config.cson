@@ -5,6 +5,13 @@
     disabledPackages: [
       "wrap-guide"
     ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      "min.css"
+      "min.js"
+    ]
     telemetryConsent: "no"
   editor:
     showIndentGuide: true
@@ -12,3 +19,4 @@
     userId: "3fee79e3-35d6-e212-b5d4-f05cc98e03d2"
   welcome:
     showOnStartup: false
+    
