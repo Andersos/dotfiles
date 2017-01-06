@@ -6,7 +6,15 @@
       "wrap-guide"
     ]
     telemetryConsent: "no"
-  "exception-reporting":
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Source Code Pro"
+    showIndentGuide: true
+    fontSize: 13
+  exception-reporting:
     userId: "3fee79e3-35d6-e212-b5d4-f05cc98e03d2"
   welcome:
     showOnStartup: false
