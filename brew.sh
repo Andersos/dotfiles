@@ -56,6 +56,7 @@ echo "brew done"
 echo "cask start"
 brew install caskroom/cask/brew-cask
 
+brew cask install 1password
 brew cask install spotify
 brew cask install things
 brew cask install atom
