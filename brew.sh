@@ -46,6 +46,8 @@ brew install wget --with-iri
 brew install rbenv ruby-build
 brew install watchman
 brew install yarn
+brew install ruby
+brew install fastlane
 
 # Remove outdated versions from the cellar.
 brew cleanup
