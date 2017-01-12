@@ -53,6 +53,9 @@ brew install fastlane
 brew cleanup
 echo "brew done"
 
+# NPM
+npm i react-native -g
+
 
 # Cask
 echo "cask start"
