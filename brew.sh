@@ -59,7 +59,6 @@ npm i react-native -g
 
 # Cask
 echo "cask start"
-brew install caskroom/cask/brew-cask
 
 brew cask install 1password
 brew cask install spotify
