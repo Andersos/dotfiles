@@ -63,7 +63,6 @@ brew install caskroom/cask/brew-cask
 
 brew cask install 1password
 brew cask install spotify
-brew cask install things
 brew cask install atom
 brew cask install slack
 brew cask install doxie
