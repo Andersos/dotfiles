@@ -54,7 +54,7 @@ brew cleanup
 echo "brew done"
 
 # NPM
-npm i react-native -g
+npm i react-native-cli -g
 
 
 # Cask
