@@ -11,3 +11,4 @@ source bootstrap.sh
 chmod +x ./brew.sh
 ./brew.sh
 ```
+Add Last.fm to Spotify
