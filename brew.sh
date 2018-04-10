@@ -29,33 +29,21 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 
 # Install other useful binaries.
-brew install dark-mode
 brew install flow
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
 brew install node
 brew install rename
-brew install keybase
 brew install shellcheck
 brew install skipfish
 brew install speedtest_cli
 brew install tree
 brew install webkit2png
-brew install wget --with-iri
-brew install rbenv ruby-build
-brew install watchman
 brew install yarn
-brew install ruby
-brew install fastlane
 
 # Remove outdated versions from the cellar.
 brew cleanup
 echo "brew done"
-
-# NPM
-npm i react-native-cli -g
-
 
 # Cask
 echo "cask start"
@@ -66,12 +54,6 @@ brew cask install atom
 brew cask install slack
 brew cask install doxie
 brew cask install sonos
-brew cask install cyberduck
-brew cask install minecraft
-brew cask install flux
-brew cask install sketch
-brew cask install postico
-brew cask install rocket # emojis
 
 echo "cask done"
 echo "Complete. Have a nice day!"
