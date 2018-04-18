@@ -56,4 +56,6 @@ brew cask install doxie
 brew cask install sonos
 
 echo "cask done"
+# Installing Atom packages
+apm stars --install
 echo "Complete. Have a nice day!"
