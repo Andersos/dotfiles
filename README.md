@@ -12,3 +12,4 @@ chmod +x ./brew.sh
 ./brew.sh
 ```
 Add Last.fm to Spotify
+You might have to exit bash in the terminal to get autocompletion to work
