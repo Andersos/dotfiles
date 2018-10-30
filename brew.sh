@@ -33,12 +33,6 @@ brew install flow
 brew install git
 brew install git-lfs
 brew install node
-brew install rename
-brew install shellcheck
-brew install skipfish
-brew install speedtest_cli
-brew install tree
-brew install webkit2png
 brew install yarn
 
 # Remove outdated versions from the cellar.
@@ -52,7 +46,6 @@ brew cask install 1password
 brew cask install spotify
 brew cask install atom
 brew cask install slack
-brew cask install doxie
 brew cask install sonos
 
 echo "cask done"
