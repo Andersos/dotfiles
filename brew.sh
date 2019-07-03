@@ -42,13 +42,12 @@ echo "brew done"
 # Cask
 echo "cask start"
 
-brew cask install 1password
 brew cask install spotify
-brew cask install atom
-brew cask install slack
-brew cask install sonos
+# brew cask install atom
+# brew cask install slack
+# brew cask install sonos
 
 echo "cask done"
 # Installing Atom packages
-apm stars --install
+# apm stars --install
 echo "Complete. Have a nice day!"
