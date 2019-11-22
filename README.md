@@ -11,6 +11,6 @@ source bootstrap.sh
 chmod +x ./brew.sh
 ./brew.sh
 ```
-[ ] Add Last.fm to Spotify  
-[ ] Activate filevault  
-[ ] Exit bash in the terminal to get autocompletion to work
+- [ ] Add Last.fm to Spotify  
+- [ ] Activate filevault  
+- [ ] Exit bash in the terminal to get autocompletion to work
