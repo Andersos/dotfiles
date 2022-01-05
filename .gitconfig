@@ -67,7 +67,7 @@
 	changed = green
 	untracked = cyan
 [core]
-	editor = atom --wait
+	editor = code --wait
 	excludesfile = ~/.gitignore
 	ignorecase = false
 	# Make `git rebase` safer on OS X
