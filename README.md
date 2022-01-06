@@ -1,7 +1,8 @@
 # dotfiles
 
-Install [Homebrew](http://brew.sh/)
+
 ```bash
+Install [Homebrew](http://brew.sh/)
 brew install git
 setup 1password
 setup ssh for Github https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
@@ -10,6 +11,6 @@ cd dotfiles
 source bootstrap.sh
 chmod +x ./brew.sh
 ./brew.sh
+Activate filevault  
 ```
-- [ ] Activate filevault  
-- [ ] Exit bash in the terminal to get autocompletion to work
+
