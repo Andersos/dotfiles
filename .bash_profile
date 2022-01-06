@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH:${ANDROID_HOME}/tools";
 export PATH="/usr/local/sbin:$PATH";
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
