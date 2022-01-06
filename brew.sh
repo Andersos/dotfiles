@@ -22,7 +22,7 @@ brew install coreutils
 # Install Bash 4.
 brew install bash
 brew tap homebrew/versions
-brew install bash-completion2
+brew install bash-completion@2
 
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
